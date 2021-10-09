@@ -11,7 +11,7 @@ function App() {
       <GlobalStyle />
       <Navbar />
       <Switch>
-        <Route path="/" exact component={Home}>
+        <Route path="/manage-landing-page" exact component={Home}>
         </Route>
       </Switch>
     </Router>
