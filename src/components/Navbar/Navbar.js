@@ -24,7 +24,7 @@ const Navbar = () => {
         <Overlay onclick={handleClick} click={click}/>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>
+                    <NavLogo to='/manage-landing-page'>
                         <Logo title="logo" />
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
