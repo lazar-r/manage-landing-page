@@ -5,12 +5,27 @@ import { Container } from '../../globalStyles'
 
 
 export const Nav = styled.nav`
+    position: relative;
     background-color: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+    &:after {
+        content: '';
+        width: 1439px;
+        height: 444px;
+        position: absolute;
+        top: -150%;
+        right: -40%;
+        background-color: #FFF0EB;
+        opacity: 1;
+        transform: rotate(-45deg);
+        z-index: -1;
+        border-bottom-left-radius: 250px;
+        border-top-left-radius: 250px;
+    }
 `;
 export const NavbarContainer = styled(Container)`
     position: relative;
