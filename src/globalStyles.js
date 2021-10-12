@@ -16,6 +16,9 @@ export const Container = styled.div`
     max-width: 1110px;
     margin: 0 auto;
     padding: 0 20px;
+    @media screen and (max-width: 768px) {
+        padding: 0 5px;
+    }
 `;
 
 export const Overlay = styled.div`

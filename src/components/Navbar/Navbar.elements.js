@@ -12,7 +12,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
 
-    &:after {
+    &:before {
         content: '';
         width: 1439px;
         height: 444px;

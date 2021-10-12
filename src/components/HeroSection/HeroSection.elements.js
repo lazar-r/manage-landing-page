@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const HeroSec = styled.section`
     padding: 60px 0;
 `;
@@ -9,6 +8,9 @@ export const HeroRow = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 120px;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 30px;
+    }
 `;
 
 export const HeroText = styled.div`
@@ -18,7 +20,20 @@ export const HeroText = styled.div`
     order: 1;
     max-width: 50%;
     flex-basis: 50%;
-
+    &:before {
+        content: '';
+        width: 1439px;
+        height: 444px;
+        position: absolute;
+        bottom: -140%;
+        left: -70%;
+        background-color: #FFF0EB;
+        opacity: 1;
+        transform: rotate(-35deg);
+        z-index: -1;
+        border-bottom-right-radius: 250px;
+        border-top-right-radius: 250px;
+    }
     @media screen and (max-width: 768px) {
         flex-basis: 100%;
         max-width: 100%;
@@ -26,6 +41,14 @@ export const HeroText = styled.div`
         justify-content: center;
         order: 2;
         text-align: center;
+        flex-direction: column;
+
+        &:before {
+            width: 539px;
+            height: 322;
+            bottom: -50%;
+            left: -40%;
+        }
     }
 `;
 
@@ -52,6 +75,7 @@ export const TextWrapper = styled.div`
     order: 1;
     @media screen and (max-width: 768px) {
         padding-bottom: 65px;
+
     }
 `;
 
@@ -62,6 +86,9 @@ export const Heading = styled.h1`
     font-weight: 700;
     line-height: 1.1;
     color: #2D3250;
+    @media screen and (max-width: 768px) {
+        margin-top: 30px;
+    }
 `;
 
 
@@ -108,7 +135,10 @@ export const Img = styled.img`
 export const HeroInfo = styled.div`
     display: flex;
     justify-content: space-between;
-`;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 15px;
+    }
+`;  
 
 export const HeroIcon = styled.div`
     display: flex;
@@ -121,14 +151,23 @@ export const HeroIcon = styled.div`
     border-radius: 20px;
     min-width: 65px;
     max-height: 40px;
+    z-index: 1;
+    @media screen and (max-width: 768px) {
+        margin-right: 5px;
+    }
 `;
 
 export const HeroInfoTitle = styled.h4`
     padding-top: 0;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     order: 1;
     @media screen and (max-width: 768px) {
-        padding-bottom: 65px;
+        padding-bottom: 12px;
+        padding-top: 5px;
+        background-color: hsl(13, 100%, 96%);
+        margin-left: -25px;
+        margin-right: -25px;
+        z-index: -1;
     }
 `;
 
@@ -142,5 +181,10 @@ export const HeroInfoText = styled.p`
     opacity: 0.8;
     @media screen and (max-width: 768px) {
         padding-bottom: 15px;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -70px;
+        text-align: left;
     }
 `;
