@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 
-export const HeroSec = styled.div`
+export const HeroSec = styled.section`
     padding: 60px 0;
 `;
 
 export const HeroRow = styled.div`
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    margin-bottom: 120px;
 `;
 
 export const HeroText = styled.div`
@@ -48,7 +48,7 @@ export const HeroImg = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     order: 1;
     @media screen and (max-width: 768px) {
         padding-bottom: 65px;
@@ -59,6 +59,15 @@ export const Heading = styled.h1`
     margin-bottom: 24px;
     margin-top: 130px;
     font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #2D3250;
+`;
+
+
+export const Heading_2 = styled.h2`
+    margin-bottom: 24px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 1.1;
     color: #2D3250;
@@ -94,4 +103,44 @@ export const Img = styled.img`
     vertical-align: middle;
     display: inline-block;
     max-height: 500px;
+`;
+
+export const HeroInfo = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
+
+export const HeroIcon = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    border: 0;
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    border-radius: 20px;
+    min-width: 65px;
+    max-height: 40px;
+`;
+
+export const HeroInfoTitle = styled.h4`
+    padding-top: 0;
+    padding-bottom: 10px;
+    order: 1;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 65px;
+    }
+`;
+
+export const HeroInfoText = styled.p`
+    max-width: 540px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #2D3250;
+    opacity: 0.8;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 15px;
+    }
 `;
