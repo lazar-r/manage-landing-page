@@ -9,13 +9,18 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         font-family: 'Be Vietnam', sans-serif;
     }
+    body {
+        overflow-x: hidden;
+    }
 `;
+
 
 export const Container = styled.div`
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
     padding: 0 20px;
+    
     @media screen and (max-width: 768px) {
         padding: 0 5px;
     }
@@ -50,7 +55,6 @@ export const Button = styled.button`
 `;
 export const BtnLink = styled(Link)`
     display: flex;
-    justify-content: center;
     align-items: center;
     text-decoration: none;
     width: 100%;

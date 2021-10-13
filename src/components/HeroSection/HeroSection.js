@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button } from '../../globalStyles'
+import { Container, Button, BtnLink } from '../../globalStyles'
 import { 
     HeroSec,
     HeroRow,
@@ -43,9 +43,9 @@ const HeroSection = ({
                             <TextWrapper>
                                 <Heading >{headline_1}</Heading>
                                 <Subtitle >{description_1}</Subtitle>
-                                <btnLink to='/get-started'>
+                                <BtnLink to='/get-started'>
                                     <Button>{buttonLabel}</Button>
-                                </btnLink>
+                                </BtnLink>
                             </TextWrapper>
                         </HeroText>
                         <HeroImg>

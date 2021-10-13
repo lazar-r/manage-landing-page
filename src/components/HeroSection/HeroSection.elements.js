@@ -44,10 +44,15 @@ export const HeroText = styled.div`
         flex-direction: column;
 
         &:before {
-            width: 539px;
-            height: 322;
-            bottom: -50%;
-            left: -40%;
+            width: 190px;
+
+            bottom: 0;
+            right: -20%;
+            left: 90%;
+            top: 103%;
+            border-bottom-left-radius: 250px;
+            border-top-left-radius: 250px;
+            transform: rotate(45deg);
         }
     }
 `;
