@@ -15,3 +15,7 @@ export const homeObjOne = {
     hero_info_text_3: 'Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.'
 
 }
+
+export const testimonialsObj = {
+    testimonials_heading: 'What they\'ve said'
+}

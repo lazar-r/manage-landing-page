@@ -84,27 +84,6 @@ export const TextWrapper = styled.div`
     }
 `;
 
-export const Heading = styled.h1`
-    margin-bottom: 24px;
-    margin-top: 130px;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1.1;
-    color: #2D3250;
-    @media screen and (max-width: 768px) {
-        margin-top: 30px;
-    }
-`;
-
-
-export const Heading_2 = styled.h2`
-    margin-bottom: 24px;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 1.1;
-    color: #2D3250;
-`;
-
 export const Subtitle = styled.p`
     max-width: 340px;
     margin-bottom: 35px;

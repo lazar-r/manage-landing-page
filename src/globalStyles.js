@@ -14,6 +14,25 @@ const GlobalStyle = createGlobalStyle`
     }
 `;
 
+export const HeroHeading = styled.h1`
+    margin-bottom: 24px;
+    margin-top: 130px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #2D3250;
+    @media screen and (max-width: 768px) {
+        margin-top: 30px;
+    }
+`;
+
+export const SectionHeading = styled.h2`
+    margin-bottom: 24px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #2D3250;
+`;
 
 export const Container = styled.div`
     width: 100%;
@@ -61,6 +80,9 @@ export const BtnLink = styled(Link)`
     border: none;
     outline: none;
     z-index: 10;
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+    }
 `;
 
 

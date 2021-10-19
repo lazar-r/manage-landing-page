@@ -1,13 +1,11 @@
 import React from 'react'
-import { Container, Button, BtnLink } from '../../globalStyles'
+import { Container, Button, BtnLink, HeroHeading, SectionHeading } from '../../globalStyles'
 import { 
     HeroSec,
     HeroRow,
     HeroText,
     HeroImg,
     TextWrapper,
-    Heading,
-    Heading_2,
     Subtitle,
     ImgWrapper,
     Img,
@@ -41,7 +39,7 @@ const HeroSection = ({
                     <HeroRow>
                         <HeroText>
                             <TextWrapper>
-                                <Heading >{headline_1}</Heading>
+                                <HeroHeading >{headline_1}</HeroHeading>
                                 <Subtitle >{description_1}</Subtitle>
                                 <BtnLink to='/get-started'>
                                     <Button>{buttonLabel}</Button>
@@ -57,7 +55,7 @@ const HeroSection = ({
                     <HeroRow>
                         <HeroText>
                             <TextWrapper>
-                                <Heading_2 >{headline_2}</Heading_2>
+                                <SectionHeading >{headline_2}</SectionHeading>
                                 <Subtitle >{description_2}</Subtitle>
                             </TextWrapper>
                         </HeroText>
