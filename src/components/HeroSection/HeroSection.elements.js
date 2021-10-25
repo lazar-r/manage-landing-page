@@ -107,15 +107,6 @@ export const ImgWrapper = styled.div`
     } 
 `;
 
-export const Img = styled.img`
-    padding-right: 0;
-    border: 0;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    max-height: 500px;
-`;
-
 export const HeroInfo = styled.div`
     display: flex;
     justify-content: space-between;
@@ -158,11 +149,6 @@ export const HeroInfoTitle = styled.h4`
 export const HeroInfoText = styled.p`
     max-width: 540px;
     padding-bottom: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8;
-    color: #2D3250;
-    opacity: 0.8;
     @media screen and (max-width: 768px) {
         padding-bottom: 15px;
         padding-top: 15px;

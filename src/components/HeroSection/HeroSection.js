@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button, BtnLink, HeroHeading, SectionHeading } from '../../globalStyles'
+import { Container, Button, BtnLink, HeroHeading, SectionHeading, Img } from '../../globalStyles'
 import { 
     HeroSec,
     HeroRow,
@@ -8,7 +8,6 @@ import {
     TextWrapper,
     Subtitle,
     ImgWrapper,
-    Img,
     HeroInfo,
     HeroIcon,
     HeroInfoTitle,

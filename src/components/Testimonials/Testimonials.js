@@ -1,5 +1,5 @@
 import React from 'react'
-import { SectionHeading } from '../../globalStyles'
+import { Button, BtnLink, SectionHeading } from '../../globalStyles'
 import { TestimonialsSec } from '../Testimonials/Testimonials.elements'
 import SimpleSlider  from './Slider'
 
@@ -9,6 +9,9 @@ const Testimonials = ( {testimonials_heading} ) => {
             <TestimonialsSec>
                 <SectionHeading>{testimonials_heading}</SectionHeading>
                 <SimpleSlider></SimpleSlider>
+                <BtnLink to='/sign-up'>
+                    <Button>Get Started</Button>
+                </BtnLink>
             </TestimonialsSec>
         </>
     )

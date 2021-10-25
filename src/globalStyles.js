@@ -12,7 +12,24 @@ const GlobalStyle = createGlobalStyle`
     body {
         overflow-x: hidden;
     }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #2D3250;
+        opacity: 0.8;
+    }
 `;
+
+export const Img = styled.img`
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 500px;
+`;
+
 
 export const HeroHeading = styled.h1`
     margin-bottom: 24px;
@@ -73,8 +90,6 @@ export const Button = styled.button`
     }
 `;
 export const BtnLink = styled(Link)`
-    display: flex;
-    align-items: center;
     text-decoration: none;
     width: 100%;
     border: none;

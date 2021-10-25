@@ -17,5 +17,17 @@ export const homeObjOne = {
 }
 
 export const testimonialsObj = {
-    testimonials_heading: 'What they\'ve said'
+    testimonials_heading: 'What they\'ve said',
+    icon_1: require('../../images/avatar-anisha.png').default,
+    icon_2: require('../../images/avatar-ali.png').default,
+    icon_3: require('../../images/avatar-richard.png').default,
+    icon_4: require('../../images/avatar-shanai.png').default,
+    card_name_1: 'Anisha Lee',
+    card_name_2: 'Ali Bravo',
+    card_name_3: 'Richard Watts',
+    card_name_4: 'Shanai Gough',
+    card_text_1: '"Manage has supercharged our team\'s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated."',
+    card_text_2: '"We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused."',
+    card_text_3: '"Manage allows us to provide structure and process. it keeps us organised and focused. I can\'t stop recommending them to everyone I talk to!."',
+    card_text_4: '"Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."'
 }
