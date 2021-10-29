@@ -1,17 +1,18 @@
 import React from 'react'
-import { Container, Button, BtnLink, HeroHeading, SectionHeading, Img } from '../../globalStyles'
+import bgDeco from '../../images/bg-tablet-pattern.svg'
+import { Container, Button, BtnLink, HeroHeading, SectionHeading, Img, TextWrapper } from '../../globalStyles'
 import { 
     HeroSec,
     HeroRow,
     HeroText,
     HeroImg,
-    TextWrapper,
     Subtitle,
     ImgWrapper,
     HeroInfo,
     HeroIcon,
     HeroInfoTitle,
-    HeroInfoText
+    HeroInfoText,
+    BgDeco
 
 } from './HeroSection.elements'
 
@@ -84,6 +85,7 @@ const HeroSection = ({
                     </HeroRow>
                 </Container>
             </HeroSec>
+            <BgDeco src={bgDeco} alt=""/>
         </>
     )
 }

@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         font-family: 'Be Vietnam', sans-serif;
     }
-    body {
+    html, body {
         overflow-x: hidden;
     }
     p {
@@ -51,6 +51,14 @@ export const SectionHeading = styled.h2`
     color: #2D3250;
 `;
 
+export const SectionHeadingLight = styled.h2`
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #fff;
+`;
+
+
 export const Container = styled.div`
     width: 100%;
     max-width: 1110px;
@@ -59,6 +67,17 @@ export const Container = styled.div`
     
     @media screen and (max-width: 768px) {
         padding: 0 5px;
+    }
+`;
+
+export const TextWrapper = styled.div`
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 30px;
+    order: 1;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 15px;
+
     }
 `;
 
@@ -89,6 +108,21 @@ export const Button = styled.button`
         cursor: pointer;
     }
 `;
+
+export const ButtonLight = styled.button`
+    background-color: #fff;
+    color: hsl(12, 88%, 59%);
+    border-radius: 50px;
+    border: none;
+    padding: 15px 35px;
+    font-weight: 700;
+
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+`;
+
 export const BtnLink = styled(Link)`
     text-decoration: none;
     width: 100%;

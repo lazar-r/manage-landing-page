@@ -4,6 +4,7 @@ import { Container } from '../../globalStyles'
 
 
 
+
 export const Nav = styled.nav`
     position: relative;
     background-color: transparent;
@@ -14,9 +15,7 @@ export const Nav = styled.nav`
 
     &:before {
         content: '';
-        width: 1439px;
-        height: 444px;
-        position: absolute;
+/*      position: absolute;
         top: -150%;
         right: -40%;
         background-color: #FFF0EB;
@@ -24,8 +23,17 @@ export const Nav = styled.nav`
         transform: rotate(-45deg);
         z-index: -1;
         border-bottom-left-radius: 250px;
-        border-top-left-radius: 250px;
+        border-top-left-radius: 250px; */
+/*             @media screen and (max-width: 768px) {
+            width: 290px;
+            right: 0;
+            top: -70%;
+            transform: rotate(45deg);
+            border-bottom-left-radius: 250px;
+            border-top-left-radius: 250px;
+        } */
     }
+
 `;
 export const NavbarContainer = styled(Container)`
     position: relative;
@@ -41,7 +49,7 @@ export const NavLogo = styled(Link)`
     justify-self: flex-start;
     align-items: center;
     cursor: pointer;
-    z-index: 99;
+
 `;
 
 export const MobileIcon = styled.div`
@@ -54,7 +62,6 @@ export const MobileIcon = styled.div`
         right: 20px;
         transform: translateY(-50%);
         cursor: pointer;
-        z-index: 99;
 
     }
 `;
