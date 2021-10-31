@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/manage-landing-page/static/js/main.50346815.chunk.js",
-    "main.js.map": "/manage-landing-page/static/js/main.50346815.chunk.js.map",
-    "runtime-main.js": "/manage-landing-page/static/js/runtime-main.d6632927.js",
-    "runtime-main.js.map": "/manage-landing-page/static/js/runtime-main.d6632927.js.map",
+    "main.js": "/manage-landing-page/static/js/main.0627d417.chunk.js",
+    "main.js.map": "/manage-landing-page/static/js/main.0627d417.chunk.js.map",
+    "runtime-main.js": "/manage-landing-page/static/js/runtime-main.32b49c68.js",
+    "runtime-main.js.map": "/manage-landing-page/static/js/runtime-main.32b49c68.js.map",
     "static/css/2.a89b82e0.chunk.css": "/manage-landing-page/static/css/2.a89b82e0.chunk.css",
     "static/js/2.401255ed.chunk.js": "/manage-landing-page/static/js/2.401255ed.chunk.js",
     "static/js/2.401255ed.chunk.js.map": "/manage-landing-page/static/js/2.401255ed.chunk.js.map",
-    "static/js/3.ecbeba3e.chunk.js": "/manage-landing-page/static/js/3.ecbeba3e.chunk.js",
-    "static/js/3.ecbeba3e.chunk.js.map": "/manage-landing-page/static/js/3.ecbeba3e.chunk.js.map",
+    "static/js/3.0f80044d.chunk.js": "/manage-landing-page/static/js/3.0f80044d.chunk.js",
+    "static/js/3.0f80044d.chunk.js.map": "/manage-landing-page/static/js/3.0f80044d.chunk.js.map",
     "index.html": "/manage-landing-page/index.html",
     "static/css/2.a89b82e0.chunk.css.map": "/manage-landing-page/static/css/2.a89b82e0.chunk.css.map",
     "static/js/2.401255ed.chunk.js.LICENSE.txt": "/manage-landing-page/static/js/2.401255ed.chunk.js.LICENSE.txt",
@@ -17,17 +17,24 @@
     "static/media/avatar-richard.png": "/manage-landing-page/static/media/avatar-richard.ace8e089.png",
     "static/media/avatar-shanai.png": "/manage-landing-page/static/media/avatar-shanai.4bbe2f95.png",
     "static/media/bg-simplify-section-desktop.a8f9ee32.svg": "/manage-landing-page/static/media/bg-simplify-section-desktop.a8f9ee32.svg",
+    "static/media/bg-simplify-section-mobile.df58834c.svg": "/manage-landing-page/static/media/bg-simplify-section-mobile.df58834c.svg",
     "static/media/bg-tablet-pattern.b6990a98.svg": "/manage-landing-page/static/media/bg-tablet-pattern.b6990a98.svg",
     "static/media/icon-close.e297e422.svg": "/manage-landing-page/static/media/icon-close.e297e422.svg",
+    "static/media/icon-facebook.svg": "/manage-landing-page/static/media/icon-facebook.1e9b3338.svg",
     "static/media/icon-hamburger.67c441f7.svg": "/manage-landing-page/static/media/icon-hamburger.67c441f7.svg",
+    "static/media/icon-instagram.svg": "/manage-landing-page/static/media/icon-instagram.54d3962e.svg",
+    "static/media/icon-pinterest.svg": "/manage-landing-page/static/media/icon-pinterest.45264b1d.svg",
+    "static/media/icon-twitter.svg": "/manage-landing-page/static/media/icon-twitter.01a8907d.svg",
+    "static/media/icon-youtube.svg": "/manage-landing-page/static/media/icon-youtube.7d6960fb.svg",
     "static/media/illustration-intro.svg": "/manage-landing-page/static/media/illustration-intro.cb9a8a95.svg",
+    "static/media/logo-white.697c66a5.svg": "/manage-landing-page/static/media/logo-white.697c66a5.svg",
     "static/media/logo.66a57610.svg": "/manage-landing-page/static/media/logo.66a57610.svg",
     "static/media/slick-theme.css": "/manage-landing-page/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6632927.js",
+    "static/js/runtime-main.32b49c68.js",
     "static/css/2.a89b82e0.chunk.css",
     "static/js/2.401255ed.chunk.js",
-    "static/js/main.50346815.chunk.js"
+    "static/js/main.0627d417.chunk.js"
   ]
 }
