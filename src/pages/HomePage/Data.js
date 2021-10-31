@@ -31,3 +31,11 @@ export const testimonialsObj = {
     card_text_3: '"Manage allows us to provide structure and process. it keeps us organised and focused. I can\'t stop recommending them to everyone I talk to!."',
     card_text_4: '"Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive."'
 }
+
+export const socialsIcons = {
+    icon_instagram: require('../../images/icon-instagram.svg').default,
+    icon_facebook: require('../../images/icon-facebook.svg').default,
+    icon_twitter: require('../../images/icon-twitter.svg').default,
+    icon_pinterest: require('../../images/icon-pinterest.svg').default,
+    icon_youtube: require('../../images/icon-youtube.svg').default,
+}

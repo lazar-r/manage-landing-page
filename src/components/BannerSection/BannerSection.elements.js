@@ -48,4 +48,20 @@ export const BannerDeco = styled.img`
     left: 20%;
     opacity: .1;
     z-index: -1;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`;
+
+export const BannerDecoMobile = styled.img`
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: .1;
+        z-index: -1;
+    }
 `;

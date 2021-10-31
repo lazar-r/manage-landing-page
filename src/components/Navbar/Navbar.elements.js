@@ -13,9 +13,9 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
 
-    &:before {
+/*     &:before {
         content: '';
-/*      position: absolute;
+        position: absolute;
         top: -150%;
         right: -40%;
         background-color: #FFF0EB;
@@ -23,17 +23,18 @@ export const Nav = styled.nav`
         transform: rotate(-45deg);
         z-index: -1;
         border-bottom-left-radius: 250px;
-        border-top-left-radius: 250px; */
-/*             @media screen and (max-width: 768px) {
-            width: 290px;
-            right: 0;
-            top: -70%;
-            transform: rotate(45deg);
-            border-bottom-left-radius: 250px;
-            border-top-left-radius: 250px;
-        } */
-    }
-
+        border-top-left-radius: 250px; 
+            @media screen and (max-width: 768px) {
+                width: 290px;
+                right: 0;
+                top: -70%;
+                transform: rotate(45deg);
+                border-bottom-left-radius: 250px;
+                border-top-left-radius: 250px;
+        } 
+    } 
+    
+*/
 `;
 export const NavbarContainer = styled(Container)`
     position: relative;

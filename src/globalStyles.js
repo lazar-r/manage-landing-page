@@ -51,10 +51,8 @@ export const SectionHeading = styled.h2`
     color: #2D3250;
 `;
 
-export const SectionHeadingLight = styled.h2`
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 1.1;
+export const SectionHeadingLight = styled(SectionHeading)`
+    margin-bottom: 0;
     color: #fff;
 `;
 
@@ -88,8 +86,7 @@ export const Overlay = styled.div`
     height: 100%; /* Full height (cover the whole page) */
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+
     background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(125,125,125,0.7) 75%);
     transition:  all 0.5s ease;
     display: ${({click}) => (click ? 'block' : 'none')};
@@ -109,18 +106,9 @@ export const Button = styled.button`
     }
 `;
 
-export const ButtonLight = styled.button`
+export const ButtonLight = styled(Button)`
     background-color: #fff;
     color: hsl(12, 88%, 59%);
-    border-radius: 50px;
-    border: none;
-    padding: 15px 35px;
-    font-weight: 700;
-
-    &:hover {
-        opacity: 0.8;
-        cursor: pointer;
-    }
 `;
 
 export const BtnLink = styled(Link)`

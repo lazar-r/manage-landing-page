@@ -12,7 +12,8 @@ import {
     HeroIcon,
     HeroInfoTitle,
     HeroInfoText,
-    BgDeco
+    BgDecoTop,
+    BgDecoBottom
 
 } from './HeroSection.elements'
 
@@ -85,7 +86,8 @@ const HeroSection = ({
                     </HeroRow>
                 </Container>
             </HeroSec>
-            <BgDeco src={bgDeco} alt=""/>
+            <BgDecoTop src={bgDeco} alt=""/>
+            <BgDecoBottom src={bgDeco} alt=""/>
         </>
     )
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import { BtnLink, ButtonLight, Container, SectionHeadingLight, TextWrapper } from '../../globalStyles'
-import { Banner, BannerRow, BannerText, BannerButton, BannerDeco } from './BannerSection.elements'
+import { Banner, BannerRow, BannerText, BannerButton, BannerDeco, BannerDecoMobile } from './BannerSection.elements'
 import bannerDeco from '../../images/bg-simplify-section-desktop.svg'
+import bannerDecoMobile from '../../images/bg-simplify-section-mobile.svg'
 
 
 
@@ -24,6 +25,7 @@ const BannerSection = () => {
                             </BtnLink>
                         </BannerButton>
                         <BannerDeco src={bannerDeco}/>
+                        <BannerDecoMobile src={bannerDecoMobile} />
                     </BannerRow>
                 </Container>
             </Banner>

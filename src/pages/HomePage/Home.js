@@ -1,6 +1,6 @@
 import React from 'react'
-import { BannerSection, HeroSection, Testimonials } from '../../components'
-import { homeObjOne, testimonialsObj } from './Data'
+import { BannerSection, Footer, HeroSection, Testimonials } from '../../components'
+import { homeObjOne, testimonialsObj, socialsIcons } from './Data'
 
 const Home = () => {
     return (
@@ -8,6 +8,7 @@ const Home = () => {
             <HeroSection {...homeObjOne}/>
             <Testimonials {...testimonialsObj}/>
             <BannerSection />
+            <Footer {...socialsIcons}/>
         </>
     )
 }
