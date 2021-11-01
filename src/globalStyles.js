@@ -86,7 +86,6 @@ export const Overlay = styled.div`
     height: 100%; /* Full height (cover the whole page) */
     top: 0;
     left: 0;
-
     background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(125,125,125,0.7) 75%);
     transition:  all 0.5s ease;
     display: ${({click}) => (click ? 'block' : 'none')};
@@ -99,7 +98,7 @@ export const Button = styled.button`
     border: none;
     padding: 15px 35px;
     font-weight: 700;
-
+    transition: all .1s ease-in-out;
     &:hover {
         opacity: 0.8;
         cursor: pointer;

@@ -8,7 +8,7 @@ export const HeroSec = styled.section`
 export const HeroRow = styled.div`
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     @media screen and (max-width: 768px) {
         margin-bottom: 30px;
     }
@@ -71,8 +71,8 @@ export const BgDecoTop = styled.img`
 
 export const BgDecoBottom = styled.img`
     position: absolute;
-    bottom: -140%;
-    left: -50%;
+    bottom: -150%;
+    left: -35%;
     z-index: -1;
     @media screen and (max-width: 768px) {
         width: 100vw;
